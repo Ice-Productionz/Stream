@@ -1,0 +1,25 @@
+{
+  "name": "iceproductionz/stream",
+  "description": "PHP stream library to handle streams in a OOP manner",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Musarurwa Chanakira",
+      "email": "jethot@hotmail.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Iceproductionz\\Stream\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IceproductionzTest\\Stream\\": "tests/unit"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
