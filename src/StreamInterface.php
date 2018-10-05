@@ -2,7 +2,7 @@
 
 namespace Iceproductionz\Stream;
 
-interface Stream
+interface StreamInterface
 {
     /**
      * @param int $length

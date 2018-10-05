@@ -1,10 +1,11 @@
 <?php
 
-namespace Iceproductionz\Stream;
+namespace Iceproductionz\Stream\File;
 
 use Iceproductionz\Stream\Exception\InvalidValue;
+use Iceproductionz\Stream\StreamInterface;
 
-class Csv implements Stream
+class Csv implements StreamInterface
 {
     /**
      * @var resource;
