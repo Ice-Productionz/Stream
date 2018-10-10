@@ -2,6 +2,13 @@
 
 namespace Iceproductionz\Stream;
 
+/**
+ * Describes a data stream.
+ *
+ * Typically, an instance will wrap a PHP stream; this interface provides
+ * a wrapper around the most common operations, including serialization of
+ * the entire stream to a string.
+ */
 interface StreamInterface
 {
     /**
@@ -10,6 +17,7 @@ interface StreamInterface
      * @return bool
      */
     public function isReadable(): bool;
+
     /**
      * Read data from the stream.
      *
@@ -55,7 +63,7 @@ interface StreamInterface
      * @return int Position of the file pointer
      * @throws \RuntimeException on error.
      */
-    public function tell();
+    public function tell(): int;
 
     /**
      * Returns true if the stream is at the end of the stream.
