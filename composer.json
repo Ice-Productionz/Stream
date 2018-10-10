@@ -1,6 +1,6 @@
 {
   "name": "iceproductionz/stream",
-  "description": "PHP stream library to handle streams in a OOP manner",
+  "description": "PHP Stream Interface",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
